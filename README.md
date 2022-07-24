@@ -50,6 +50,13 @@ git reflog
 ```
 
 ## 分支操作
+### 分支合并示意图
+<div align=center><img src="https://github.com/wangwenxi-handsome/git_tutorial/blob/main/fig/branch.png"/></div>
+<div align=center><img src="https://github.com/wangwenxi-handsome/git_tutorial/blob/main/fig/merge.png"/></div>
+
+### 团队合作方式
+<div align=center><img src="https://github.com/wangwenxi-handsome/git_tutorial/blob/main/fig/flow.png"/></div>
+
 ```
 # 查看已有分支
 git branch
@@ -73,13 +80,6 @@ git add + git commit    # 提交一个新的commit
 # 删除分支
 git branch -d develop
 ```
-
-### 分支合并示意图
-<div align=center><img src="https://github.com/wangwenxi-handsome/git_tutorial/blob/main/fig/branch.png"/></div>
-<div align=center><img src="https://github.com/wangwenxi-handsome/git_tutorial/blob/main/fig/merge.png"/></div>
-
-### 团队合作方式
-<div align=center><img src="https://github.com/wangwenxi-handsome/git_tutorial/blob/main/fig/flow.png"/></div>
 
 ## 远程操作
 在git clone后，本地会生成一个叫做origin的指针指向远程代码库
