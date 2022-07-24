@@ -40,7 +40,7 @@ git reset HEAD a.py
 git reset HEAD .    (一键撤销暂存区的所有改动)
 
 # 回退到之前的版本(commit)
-# HEAD指向当前版本，HEAD^是上一个版本，HEAD^是上上个版本
+# HEAD指向当前版本，HEAD^是上一个版本，HEAD^^是上上个版本
 git reset --hard HEAD^
 git reset --hard commitID   # commitID通过git log查看
 
