@@ -11,6 +11,7 @@ git clone https://github.com/wangwenxi-handsome/git_tutorial.git
 ```
 
 ## git本地版本控制
+<div align=center><img src="https://github.com/wangwenxi-handsome/git_tutorial/blob/main/fig/all-states.png"/></div>
 
 ### 记录改动
 ```
@@ -74,8 +75,11 @@ git branch -d develop
 ```
 
 ### 分支合并示意图
+<div align=center><img src="https://github.com/wangwenxi-handsome/git_tutorial/blob/main/fig/branch.png"/></div>
+<div align=center><img src="https://github.com/wangwenxi-handsome/git_tutorial/blob/main/fig/merge.png"/></div>
 
 ### 团队合作方式
+<div align=center><img src="https://github.com/wangwenxi-handsome/git_tutorial/blob/main/fig/flow.png"/></div>
 
 ## 远程操作
 在git clone后，本地会生成一个叫做origin的指针指向远程代码库
