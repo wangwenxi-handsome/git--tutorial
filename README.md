@@ -68,7 +68,7 @@ git checkout develop    # 切换到develop分支
 
 # 如果工作区不是干净的，但代码还没有改完，希望保留工作区和暂存区的修改，这时怎么办*
 git stash   # 将工作区和暂存区修改加入栈
-git pop   # 将工作区和暂存区修改弹出栈
+git stash pop   # 将工作区和暂存区修改弹出栈
 
 # 分支合并
 git merge develop   # 将develop合并到master上，需要切换到master分支上执行
